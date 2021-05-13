@@ -7,3 +7,7 @@
   display: block;
   margin: 0 auto;
 }
+
+.App-footer {
+  text-align: center;
+}
