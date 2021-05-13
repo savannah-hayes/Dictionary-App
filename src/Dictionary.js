@@ -13,6 +13,7 @@ function Dictionary() {
   function handleSubmit(event) {
     event.preventDefault();
 
+    //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
     axios.get(apiUrl).then(handleResponse);
   }
