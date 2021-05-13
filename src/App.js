@@ -11,7 +11,16 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Dictionary />
       </header>
-      <footer className="App-footer">Coded by Savannah Hayes</footer>
+      <footer className="App-footer">
+        Coded by{" "}
+        <a
+          href="https://github.com/savannah-hayes/Dictionary-App"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Savannah Hayes
+        </a>
+      </footer>
     </div>
   );
 }
