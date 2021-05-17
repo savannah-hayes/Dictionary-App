@@ -26,16 +26,18 @@ function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h1>Dictionary</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="search"
-          placeholder="Search for a word..."
-          autoComplete="off"
-          onChange={displayWord}
-        />
-        <input type="submit" value="Search" />
-      </form>
+      <section>
+        <form onSubmit={handleSubmit}>
+          <h2>Search for a word</h2>
+          <input
+            className="search"
+            type="search"
+            autoComplete="off"
+            onChange={displayWord}
+          />
+          <input className="submit" type="submit" value="🔍" />
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
