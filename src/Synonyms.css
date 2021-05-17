@@ -1,0 +1,13 @@
+.Synonyms {
+  opacity: 0.9;
+}
+.Synonyms ul {
+  margin: 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 14px;
+  font-style: italic;
+}
