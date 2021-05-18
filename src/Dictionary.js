@@ -5,8 +5,8 @@ import Photos from "./Photos";
 
 import "./Dictionary.css";
 
-function Dictionary() {
-  const [word, setWord] = useState(null);
+function Dictionary(props) {
+  const [word, setWord] = useState(props.defaultWord);
   const [results, setResults] = useState(null);
   const [loaded, setLoaded] = useState(false);
   const [photos, setPhotos] = useState(null);
@@ -52,9 +52,10 @@ function Dictionary() {
           <form onSubmit={handleSubmit}>
             <h2>Search for a word</h2>
             <input
-              className="search"
+              className="input"
               type="search"
               autoComplete="off"
+              defaultValue={props.defaultWord}
               onChange={displayWord}
             />
             <input className="submit" type="submit" value="🔍" />

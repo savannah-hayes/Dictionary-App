@@ -7,7 +7,7 @@ function Synonyms(props) {
     return (
       <div className="Synonyms">
         <ul>
-          <em>Synonyms: </em>{" "}
+          <em>Synonyms: </em>
           {props.synonyms.map((synonyms, index) => {
             return <li key={index}>{synonyms}</li>;
           })}

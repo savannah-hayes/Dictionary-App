@@ -10,7 +10,7 @@ function App() {
         <section>
           <h1>📖 Dictionary</h1>
         </section>
-        <Dictionary />
+        <Dictionary defaultWord="hello" />
       </header>
       <footer className="App-footer">
         Coded by{" "}
