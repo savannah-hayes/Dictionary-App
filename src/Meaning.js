@@ -14,7 +14,9 @@ function Meaning(props) {
             <p className="definition">
               {formattedIndex}. {definition.definition}
             </p>
-            <p className="definition">{definition.example}</p>
+            <p className="example">
+              <em>{definition.example}</em>
+            </p>
             <Synonyms synonyms={definition.synonyms} />
           </div>
         );
