@@ -8,9 +8,11 @@ function App() {
       <div className="container"></div>
       <header className="App-header">
         <section>
-          <h1>📖 Dic·tio·nary</h1>
+          <h1>
+            📖 Dic<span>·</span>tio<span>·</span>nary
+          </h1>
         </section>
-        <Dictionary defaultWord="hello" />
+        <Dictionary defaultWord="coding" />
       </header>
       <footer className="App-footer">
         Coded by{" "}

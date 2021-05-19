@@ -1,5 +1,5 @@
 .Synonyms {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .Synonyms ul {
   margin: 0;
@@ -9,5 +9,4 @@
   display: inline-block;
   padding-right: 15px;
   font-size: 14px;
-  font-style: italic;
 }

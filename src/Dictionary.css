@@ -4,7 +4,7 @@
 }
 
 .Dictionary section {
-  background: rgb(240, 237, 237);
+  background: #dad5cd;
   padding: 30px 20px;
   border-radius: 8px;
   margin: 20px 0;
@@ -14,13 +14,21 @@
 .Dictionary .search {
   width: 80%;
   padding: 10px;
+  background-color: rgb(245, 245, 245);
   border: 2px solid black;
 }
 
 .Dictionary .submit {
-  width: 15%;
-  padding: 10px 15px;
+  width: 10%;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 8px 10px;
   margin-left: 10px;
   background-color: rgb(120, 155, 177);
   color: white;
+}
+
+.Dictionary .submit:hover {
+  background-color: rgb(130, 161, 181);
+  transition: all 200ms ease-in-out;
 }
