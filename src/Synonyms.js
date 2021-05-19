@@ -7,13 +7,12 @@ function Synonyms(props) {
   if (props.synonyms) {
     return (
       <div className="Synonyms">
-        <button className="btn btn-primary" onClick={() => setHidden(!hidden)}>
-          Synonyms
-        </button>
+        <button onClick={() => setHidden(!hidden)}>Synonyms</button>
+        <br />
         <span hidden={hidden}>
           <ul>
             {props.synonyms.map((synonyms, index) => {
-              if (index < 6) {
+              if (index < 5) {
                 return <li key={index}>{synonyms}</li>;
               } else {
                 return null;

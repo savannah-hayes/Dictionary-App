@@ -3,11 +3,26 @@
   font-size: 14px;
   margin-left: 30px;
 }
+
 .Synonyms ul {
-  margin: 0;
-  padding: 0;
+  position: relative;
+  margin-top: -27px;
+  margin-left: 55px;
 }
+
 .Synonyms li {
   display: inline-block;
-  padding-right: 15px;
+  margin-left: 10px;
+}
+
+.Synonyms button {
+  background-color: rgb(120, 155, 177);
+  color: white;
+  padding: 7px 7px;
+  border-radius: 5px;
+  border: transparent;
+}
+
+.Synonyms button:hover {
+  background-color: rgb(123, 160, 181);
 }
