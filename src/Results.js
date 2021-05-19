@@ -9,12 +9,12 @@ function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2>{props.results.word}</h2>
+          <span className="word">{props.results.word} </span>
           {props.results.phonetics.map((phonetic, index) => {
             return (
-              <div key={index}>
+              <span key={index}>
                 <Phonetic phonetic={phonetic} />
-              </div>
+              </span>
             );
           })}
         </section>

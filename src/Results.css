@@ -1,3 +1,8 @@
 .Results {
   text-align: left;
 }
+
+.Results .word {
+  font-size: 38px;
+  font-weight: 700;
+}

@@ -50,15 +50,15 @@ function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <h2>Search for a word</h2>
+            <h3>What word do you want to look up?</h3>
             <input
-              className="input"
+              className="search"
               type="search"
               autoComplete="off"
-              defaultValue={props.defaultWord}
+              placeholder="Search for a word"
               onChange={displayWord}
             />
-            <input className="submit" type="submit" value="🔍" />
+            <input className="submit" type="submit" value="Search" />
           </form>
         </section>
         <Results results={results} />

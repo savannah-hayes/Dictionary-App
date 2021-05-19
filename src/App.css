@@ -4,9 +4,9 @@
 }
 
 .App h1 {
+  font-size: 70px;
   text-align: center;
-  font-weight: 700;
-  padding: 20px;
+  padding: 5px;
 }
 
 .App section {

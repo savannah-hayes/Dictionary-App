@@ -1,14 +1,23 @@
 import React from "react";
-import ReactAudioPlayer from "react-audio-player";
+import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
 import "./Phonetic.css";
 
 function Phonetic(props) {
+  const audio = new Audio(props.phonetic.audio);
+  const playSound = (audioFile) => {
+    audioFile.play();
+  };
   return (
-    <div className="Phonetic">
-      <p>{props.phonetic.text}</p>
-      <ReactAudioPlayer src={props.phonetic.audio} autoPlay={false} controls />
-    </div>
+    <span className="Phonetic">
+      <VolumeUpIcon
+        className="icon"
+        fontSize="large"
+        style={{ color: "rgb(120, 155, 177)" }}
+        onClick={() => playSound(audio)}
+      ></VolumeUpIcon>
+      <span className="phoneticText"> {props.phonetic.text} </span>
+    </span>
   );
 }
 

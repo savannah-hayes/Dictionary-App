@@ -1,3 +1,16 @@
 .Phonetic p {
   opacity: 0.7;
 }
+
+.Phonetic {
+  position: relative;
+  top: -5px;
+}
+
+.Phonetic .phoneticText {
+  margin-left: 5px;
+}
+
+.Phonetic .icon {
+  margin-left: 5px;
+}
