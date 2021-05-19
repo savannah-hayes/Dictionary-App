@@ -1,6 +1,8 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 
+import "./Meaning.css";
+
 function Meaning(props) {
   return (
     <div className="Meaning">
@@ -9,14 +11,10 @@ function Meaning(props) {
         let formattedIndex = ++index;
         return (
           <div key={index}>
-            <p>
-              <strong>
-                {formattedIndex}. {definition.definition}
-              </strong>
+            <p className="definition">
+              {formattedIndex}. {definition.definition}
             </p>
-            <p>
-              <em>{definition.example}</em>
-            </p>
+            <p className="definition">{definition.example}</p>
             <Synonyms synonyms={definition.synonyms} />
           </div>
         );

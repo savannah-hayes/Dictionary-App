@@ -9,7 +9,11 @@ function Synonyms(props) {
         <ul>
           Synonyms:{" "}
           {props.synonyms.map((synonyms, index) => {
-            return <li key={index}>{synonyms}</li>;
+            if (index < 6) {
+              return <li key={index}>{synonyms}</li>;
+            } else {
+              return null;
+            }
           })}
         </ul>
       </div>
