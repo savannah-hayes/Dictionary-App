@@ -17,12 +17,21 @@ function App() {
       <footer className="App-footer">
         Coded by{" "}
         <a
-          href="https://github.com/savannah-hayes/Dictionary-App"
+          href="linkedin.com/in/savannah-hayes-128b0418a"
           target="_blank"
           className="link"
           rel="noreferrer"
         >
           Savannah Hayes
+        </a>
+        , Open-sourced on{" "}
+        <a
+          href="https://github.com/savannah-hayes/Dictionary-App"
+          target="_blank"
+          className="link"
+          rel="noreferrer"
+        >
+          GitHub{" "}
         </a>
       </footer>
     </div>

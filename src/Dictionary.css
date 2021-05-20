@@ -28,10 +28,6 @@
   color: white;
 }
 
-.Dictionary .submit::after {
-  border: 1px solid rgb(8, 10, 11);
-}
-
 .Dictionary .submit:hover {
   background-color: rgb(130, 161, 181);
   transition: all 200ms ease-in-out;
