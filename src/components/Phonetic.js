@@ -1,8 +1,6 @@
 import React from "react";
 import VolumeUpIcon from "@material-ui/icons/VolumeUp";
 
-import "./Phonetic.css";
-
 function Phonetic(props) {
   const audio = new Audio(props.phonetic.audio);
   const playSound = (audioFile) => {

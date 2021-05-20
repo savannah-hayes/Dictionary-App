@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import "./Synonyms.css";
-
 function Synonyms(props) {
   const [hidden, setHidden] = useState(true);
   if (props.synonyms) {

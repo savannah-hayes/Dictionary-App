@@ -3,8 +3,6 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 
-import "./Dictionary.css";
-
 function Dictionary(props) {
   const [word, setWord] = useState(props.defaultWord);
   const [results, setResults] = useState(null);

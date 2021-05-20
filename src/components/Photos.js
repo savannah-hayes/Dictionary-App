@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./Photos.css";
-
 function Photos(props) {
   if (props.photos) {
     return (
