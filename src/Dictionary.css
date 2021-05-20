@@ -18,13 +18,18 @@
 }
 
 .Dictionary .submit {
-  width: 10%;
-  font-size: 20px;
+  width: 15%;
+  font-size: 17px;
+  border: transparent;
   border-radius: 3px;
-  padding: 8px 10px;
+  padding: 11px 9px;
   margin-left: 10px;
   background-color: rgb(120, 155, 177);
   color: white;
+}
+
+.Dictionary .submit::after {
+  border: 1px solid rgb(8, 10, 11);
 }
 
 .Dictionary .submit:hover {

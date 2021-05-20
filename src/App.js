@@ -19,6 +19,7 @@ function App() {
         <a
           href="https://github.com/savannah-hayes/Dictionary-App"
           target="_blank"
+          className="link"
           rel="noreferrer"
         >
           Savannah Hayes

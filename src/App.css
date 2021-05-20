@@ -26,6 +26,16 @@
   text-align: center;
 }
 
+.App .link {
+  color: rgb(120, 155, 177);
+  text-decoration: none;
+}
+
+.App .link:hover {
+  color: rgb(133, 175, 201);
+  text-decoration: underline;
+}
+
 body {
   background-color: white;
 }

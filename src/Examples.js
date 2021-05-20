@@ -5,7 +5,7 @@ function Examples(props) {
     return (
       <div className="Examples">
         <p className="example">
-          <em>Ex: {props.examples}</em>
+          <em>Example: {props.examples}</em>
         </p>
       </div>
     );

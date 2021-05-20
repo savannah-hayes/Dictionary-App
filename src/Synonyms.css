@@ -6,7 +6,7 @@
 
 .Synonyms ul {
   position: relative;
-  margin-top: -27px;
+  margin-top: -43px;
   margin-left: 55px;
 }
 
@@ -18,9 +18,10 @@
 .Synonyms button {
   background-color: rgb(120, 155, 177);
   color: white;
-  padding: 7px 7px;
-  border-radius: 5px;
+  padding: 7px 10px;
+  border-radius: 50px;
   border: transparent;
+  margin-bottom: 15px;
 }
 
 .Synonyms button:hover {

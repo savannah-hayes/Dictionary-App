@@ -58,7 +58,7 @@ function Dictionary(props) {
               placeholder="Search for a word"
               onChange={displayWord}
             />
-            <input className="submit" type="submit" value="🔍" />
+            <input className="submit" type="submit" value="Search" />
           </form>
         </section>
         <Results results={results} />
