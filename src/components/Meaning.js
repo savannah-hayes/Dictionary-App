@@ -2,23 +2,25 @@ import React from "react";
 import Synonyms from "./Synonyms";
 import Examples from "./Examples";
 
+import { Title, Paragraph, Section } from "../styled-components/Meaning-css";
+
 function Meaning(props) {
   return (
-    <div className="Meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
+    <Section className="Meaning">
+      <Title>{props.meaning.partOfSpeech}</Title>
       {props.meaning.definitions.map((definition, index) => {
         let formattedIndex = ++index;
         return (
           <div key={index}>
-            <p className="definition">
+            <Paragraph className="definition">
               {formattedIndex}. {definition.definition}
-            </p>
+            </Paragraph>
             <Examples examples={definition.example} />
             <Synonyms synonyms={definition.synonyms} />
           </div>
         );
       })}
-    </div>
+    </Section>
   );
 }
 

@@ -1,5 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
+import {
+  StyledTitle,
+  StyledInput,
+  StyledButton,
+  StyledCol,
+  StyledContainer,
+  StyledRow,
+  Section,
+  StyledForm,
+} from "../styled-components/Dictionary-css";
 import Results from "./Results";
 import Photos from "./Photos";
 
@@ -45,23 +55,28 @@ function Dictionary(props) {
 
   if (loaded) {
     return (
-      <div className="Dictionary">
-        <section>
-          <form onSubmit={handleSubmit}>
-            <h3>What word do you want to look up?</h3>
-            <input
-              className="search"
-              type="search"
-              autoComplete="off"
-              placeholder="Search for a word"
-              onChange={displayWord}
-            />
-            <input className="submit" type="submit" value="Search" />
-          </form>
-        </section>
+      <StyledContainer className="Dictionary">
+        {" "}
+        <StyledRow>
+          <Section>
+            <StyledCol>
+              <StyledForm onSubmit={handleSubmit}>
+                <StyledTitle>What word do you want to look up?</StyledTitle>
+                <StyledInput
+                  className="search"
+                  type="search"
+                  autoComplete="off"
+                  placeholder="Search for a word"
+                  onChange={displayWord}
+                ></StyledInput>
+                <StyledButton>Search</StyledButton>
+              </StyledForm>
+            </StyledCol>
+          </Section>
+        </StyledRow>
         <Results results={results} />
         <Photos photos={photos} alt={word} />
-      </div>
+      </StyledContainer>
     );
   } else {
     load();

@@ -1,11 +1,27 @@
 export const lightTheme = {
-  body: "#FFF",
-  primaryColor: "#bdb09c",
-  secondaryColor: "#789bb1",
-  background: "#363537",
+  body: "#FFFFFF",
+  primaryColor: "#789bb1",
+  section: {
+    background: "#dad5cd;",
+    boxShadow: "0px 5px 15px rgb(0, 0, 0, 0.1)",
+  },
+  toggleBtn: {
+    background: "#FFFFFF",
+    border: "#789bb1",
+  },
 };
 
 export const darkTheme = {
-  body: "#363537",
-  background: "#999",
+  body: "#333",
+  primaryColor: "#789bb1",
+  text: "#FFFFFF",
+  section: {
+    background: "#333",
+    border: "#FFFFFF",
+    boxShadow: "none",
+  },
+  toggleBtn: {
+    background: "#f7f4f4",
+    border: "#789bb1",
+  },
 };
