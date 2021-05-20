@@ -4,12 +4,14 @@ import {
   StyledTitle,
   StyledInput,
   StyledButton,
+  StyledImage,
   StyledCol,
   StyledContainer,
   StyledRow,
   Section,
   StyledForm,
 } from "../styled-components/Dictionary-css";
+import searchIcon from "../Icons/search.png";
 import Results from "./Results";
 import Photos from "./Photos";
 
@@ -69,7 +71,9 @@ function Dictionary(props) {
                   placeholder="Search for a word"
                   onChange={displayWord}
                 ></StyledInput>
-                <StyledButton>Search</StyledButton>
+                <StyledButton>
+                  <StyledImage src={searchIcon} />
+                </StyledButton>
               </StyledForm>
             </StyledCol>
           </Section>

@@ -1,23 +1,14 @@
 import styled from "styled-components";
 
 export const StyledContainer = styled.div`
-  width: 85%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 80%;
   margin: 0 auto;
-  @media (max-width: 425px) {
-    max-width: 100%;
-    @media (min-width: 1025px) {
-      max-width: 75%;
-    }
-  }
 `;
 
 export const StyledRow = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  text-align: center;
 `;
 
 export const StyledCol = styled.div`
@@ -26,15 +17,6 @@ export const StyledCol = styled.div`
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
-  @media (max-width: 768px) {
-    padding-right: 160px;
-  }
-  @media (max-width: 425px) {
-    padding-right: 20px;
-  }
-  @media (min-width: 1025px) {
-    padding-right: 360px;
-  }
 `;
 
 export const StyledButton = styled.button`
@@ -42,10 +24,7 @@ export const StyledButton = styled.button`
   border: 2px solid black;
   border-radius: 30px;
   cursor: pointer;
-  font-size: 1em;
-  font-family: 'Archivo', sans-serif;
   margin: 0 auto;
-  overflow: hidden;
    padding: 3px 0;
   position: relative;
   width: 50px;
@@ -61,7 +40,7 @@ export const StyledHeader = styled.h1`
   } ;
 `;
 
-export const StyledSymbols = styled.h1`
+export const StyledSymbols = styled.div`
   color: ${({ theme }) => theme.primaryColor};
   display: inline;
   font-size: 1.4em;

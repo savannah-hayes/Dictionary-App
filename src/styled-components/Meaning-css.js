@@ -5,7 +5,7 @@ export const Title = styled.h1`
 `;
 
 export const Paragraph = styled.p`
-  text-align: left;
+  margin-left: 15px;
 `;
 
 export const Section = styled.div`

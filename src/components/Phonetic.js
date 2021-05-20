@@ -1,5 +1,6 @@
 import React from "react";
 import VolumeUpIcon from "@material-ui/icons/VolumeUp";
+import { Section } from "../styled-components/Phonetic-css";
 
 function Phonetic(props) {
   const audio = new Audio(props.phonetic.audio);
@@ -7,7 +8,7 @@ function Phonetic(props) {
     audioFile.play();
   };
   return (
-    <span className="Phonetic">
+    <Section>
       <VolumeUpIcon
         className="icon"
         fontSize="large"
@@ -15,7 +16,7 @@ function Phonetic(props) {
         onClick={() => playSound(audio)}
       ></VolumeUpIcon>
       <span className="phoneticText"> {props.phonetic.text} </span>
-    </span>
+    </Section>
   );
 }
 

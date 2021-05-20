@@ -7,7 +7,7 @@ import { Title, Paragraph, Section } from "../styled-components/Meaning-css";
 function Meaning(props) {
   return (
     <Section className="Meaning">
-      <Title>{props.meaning.partOfSpeech}</Title>
+      <Title className="uppercase">{props.meaning.partOfSpeech}</Title>
       {props.meaning.definitions.map((definition, index) => {
         let formattedIndex = ++index;
         return (

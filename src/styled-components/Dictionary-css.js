@@ -2,27 +2,22 @@ import styled from "styled-components";
 
 export const StyledTitle = styled.h3`
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  text-align: left;
 `;
 
 export const StyledContainer = styled.div`
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 `;
 
 export const StyledCol = styled.div`
   position: relative;
-  width: 100%;
-  text-align: center;
 `;
 
 export const StyledRow = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
   margin-top: 15px;
 `;
 
@@ -36,34 +31,28 @@ export const Section = styled.div`
 `;
 
 export const StyledForm = styled.form`
-  margin: 0 auto;
   padding: 30px;
-  text-align: center;
+  text-align: ;
 `;
 
 export const StyledInput = styled.input`
   border-radius: 5px;
   border: 2px solid ${({ theme }) => theme.primaryColor};
-  color: ${({ theme }) => theme.primaryColor};
-  width: auto;
-  padding: 5px;
-  margin: 0 10px;
+  width: 80%;
+  padding: 7px;
   background-color: ${({ theme }) => theme.background};
-  @media (min-width: 768px) {
-    width: 250px;
-  }
-  @media (min-width: 1024px) {
-    width: 450px;
-  }
 `;
 
 export const StyledButton = styled.button`
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 7px 10px;
+  margin-left: 10px;
   border: 2px solid ${({ theme }) => theme.primaryColor};
   background: ${({ theme }) => theme.primaryColor};
-  color: #fafafa;
-  font-family: "Archivo";
-  @media (max-width: 3375px) {
-    margin-top: 15px;
+  width: 15%;
+`;
+
+export const StyledImage = styled.img`
+  width: 22px;
+  heigth: 22px;
 `;

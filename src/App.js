@@ -56,7 +56,7 @@ function App() {
             <StyledFooter className="App-footer">
               Coded by{" "}
               <StyledLink
-                href="linkedin.com/in/savannah-hayes-128b0418a"
+                href="https://linkedin.com/in/savannah-hayes-128b0418a"
                 target="_blank"
                 className="link"
                 rel="noreferrer"

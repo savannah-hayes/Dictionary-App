@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  border-radius: 5px;
+  border-radius: 30px;
   padding: 5px 10px;
   border: 2px solid ${({ theme }) => theme.primaryColor};
   background: ${({ theme }) => theme.primaryColor};
   color: #fafafa;
   font-family: "Archivo";
-  @media (max-width: 3375px) {
-    margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 15px;
 `;
 
 export const StyledContainer = styled.div`
@@ -19,16 +19,16 @@ export const StyledContainer = styled.div`
   margin-left: auto;
 `;
 
+export const StyledUnorderedList = styled.ul`
+  position: relative;
+  margin-top: -47px;
+  margin-left: 80px;
+`;
+
 export const StyledList = styled.li`
   color: ${({ theme }) => theme.synonyms};
   display: inline-block;
-  margin-left: 10px;
-`;
-
-export const StyledUnorderedList = styled.ul`
-  position: relative;
-  margin-top: -43px;
-  margin-left: 55px;
+  margin-left: 20px;
 `;
 
 export const StyledRow = styled.div`
