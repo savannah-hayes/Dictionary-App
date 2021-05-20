@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container"></div>
       <header className="App-header">
-        <section>
+        <section className="title">
           <h1>
             📖 Dic<span>·</span>tio<span>·</span>nary
           </h1>
