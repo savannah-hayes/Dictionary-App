@@ -26,6 +26,6 @@ export const Section = styled.div`
   border-radius: 8px;
   margin-top: 5px;
   padding: 10px 15px;
-  border: 1px solid ${({ theme }) => theme.section.border};
+  border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};
 `;

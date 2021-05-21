@@ -25,7 +25,7 @@ export const Section = styled.div`
   background: ${({ theme }) => theme.section.background};
   border-radius: 8px;
   padding: 5px;
-  border: 1px solid ${({ theme }) => theme.section.border};
+  border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};
   width: 100%;
 `;

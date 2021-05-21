@@ -12,7 +12,7 @@ export const Section = styled.div`
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  border: 1px solid ${({ theme }) => theme.section.border};
+  border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};
 `;
 

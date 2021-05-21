@@ -20,16 +20,30 @@ export const StyledCol = styled.div`
 `;
 
 export const StyledButton = styled.button`
-  background-color: ${({ theme }) => theme.toggleBtn.background};;
-  border: 2px solid black;
+  background-color: ${({ theme }) => theme.toggleBtn.background};
+  border: 2px solid #789bb1;
   border-radius: 30px;
+  padding: 5px 0;
   cursor: pointer;
-  margin: 0 auto;
-   padding: 3px 0;
   position: relative;
-  width: 50px;
-  margin: 20px 10px;
+  width: 126px;
+  margin: 20px;
   }
+`;
+
+export const StyledText = styled.span`
+  position: relative;
+  margin-left: 7px;
+  margin-right: 5px;
+  top: 2px;
+`;
+
+export const StyledIcon = styled.img`
+  height: 28px;
+  width: 28px;
+  border-radius: 50px;
+  border: 2px solid #789bb1;
+  display: inline;
 `;
 
 export const StyledHeader = styled.h1`
@@ -46,11 +60,6 @@ export const StyledSymbols = styled.div`
   font-size: 1.4em;
   position: relative;
   top: 5px;
-`;
-
-export const StyledIcon = styled.img`
-  height: 20px;
-  width: 20px;
 `;
 
 export const StyledLink = styled.a`

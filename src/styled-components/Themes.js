@@ -3,7 +3,8 @@ export const lightTheme = {
   primaryColor: "#789bb1",
   synonyms: "#2d2d2d",
   section: {
-    background: "#dad5cd;",
+    background: "#dad5cd",
+    border: "#789bb1",
     boxShadow: "0px 5px 15px rgb(0, 0, 0, 0.3)",
   },
   toggleBtn: {

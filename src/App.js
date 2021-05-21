@@ -4,6 +4,7 @@ import { GlobalStyles } from "./styled-components/Global";
 import { lightTheme, darkTheme } from "./styled-components/Themes";
 import {
   StyledButton,
+  StyledText,
   StyledIcon,
   StyledHeader,
   StyledSymbols,
@@ -20,14 +21,17 @@ import Dictionary from "./components/Dictionary";
 function App() {
   const [theme, setTheme] = useState("light");
   const [icon, setIcon] = useState(darkIcon);
+  const [text, setText] = useState("DarkMode");
 
   function toggleTheme() {
     if (theme === "light") {
       setTheme("dark");
       setIcon(lightIcon);
+      setText("LightMode");
     } else {
       setTheme("light");
       setIcon(darkIcon);
+      setText("DarkMode");
     }
   }
 
@@ -38,11 +42,10 @@ function App() {
         <StyledContainer className="app-container">
           <StyledRow>
             <StyledCol>
-              Light
               <StyledButton onClick={toggleTheme}>
                 <StyledIcon src={icon} alt="toggle icon" />
+                <StyledText>{text}</StyledText>
               </StyledButton>
-              Dark
             </StyledCol>
             <StyledCol>
               <StyledHeader>
