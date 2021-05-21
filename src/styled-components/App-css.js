@@ -26,21 +26,22 @@ export const StyledButton = styled.button`
   padding: 5px 0;
   cursor: pointer;
   position: relative;
-  width: 126px;
-  margin: 20px;
+  width: 128px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   }
 `;
 
 export const StyledText = styled.span`
   position: relative;
-  margin-left: 7px;
-  margin-right: 5px;
+  margin-left: 5px;
+  margin-right: 7px;
   top: 2px;
 `;
 
 export const StyledIcon = styled.img`
-  height: 28px;
-  width: 28px;
+  height: 30px;
+  width: 30px;
   border-radius: 50px;
   border: 2px solid #789bb1;
   display: inline;
@@ -71,4 +72,9 @@ export const StyledFooter = styled.footer` {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 30px;
+  &:hover{
+    ${StyledLink}{
+      color: ${({ theme }) => theme.link.text};
+    }
+  }
 `;

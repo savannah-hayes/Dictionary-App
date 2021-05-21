@@ -23,4 +23,5 @@ export const StyledContainer = styled.div`
 
 export const StyledImage = styled.img`
   margin-bottom: 20px;
+  border: 2px solid ${({ theme }) => theme.photo.border};
 `;

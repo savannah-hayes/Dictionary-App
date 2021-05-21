@@ -1,15 +1,21 @@
 export const lightTheme = {
   body: "#FFFFFF",
   primaryColor: "#789bb1",
-  synonyms: "#2d2d2d",
+  synonyms: "#648ba3",
   section: {
     background: "#dad5cd",
     border: "#789bb1",
     boxShadow: "0px 5px 15px rgb(0, 0, 0, 0.3)",
   },
+  photo: {
+    border: "none",
+  },
   toggleBtn: {
     background: "#FFFFFF",
     border: "#789bb1",
+  },
+  link: {
+    text: "#89b2cc",
   },
 };
 
@@ -23,8 +29,14 @@ export const darkTheme = {
     border: "#FFFFFF",
     boxShadow: "none",
   },
+  photo: {
+    border: "#FFFFFF",
+  },
   toggleBtn: {
-    background: "#f7f4f4",
+    background: "#FFFFFF",
     border: "#789bb1",
+  },
+  link: {
+    text: "#89b2cc",
   },
 };
