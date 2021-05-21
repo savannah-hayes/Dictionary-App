@@ -63,19 +63,26 @@ export const StyledSymbols = styled.div`
   top: 5px;
 `;
 
-export const StyledLink = styled.a`
+export const StyledLink1 = styled.a`
   color: ${({ theme }) => theme.primaryColor};
   text-decoration: none;
+  &:hover {
+    color: ${({ theme }) => theme.link.text};
+    text-decoration: underline;
+  }
 `;
 
-export const StyledFooter = styled.footer` {
+export const StyledLink2 = styled.a`
+  color: ${({ theme }) => theme.primaryColor};
+  text-decoration: none;
+  &:hover {
+    color: ${({ theme }) => theme.link.text};
+    text-decoration: underline;
+  }
+`;
+
+export const StyledFooter = styled.footer`
   text-align: center;
   margin-bottom: 20px;
   margin-top: 30px;
-  &:hover{
-    ${StyledLink}{
-      color: ${({ theme }) => theme.link.text};
-      text-decoration: underline;
-    }
-  }
 `;

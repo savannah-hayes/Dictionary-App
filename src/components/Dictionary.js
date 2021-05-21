@@ -3,6 +3,7 @@ import axios from "axios";
 import {
   StyledTitle,
   StyledInput,
+  StyledText,
   StyledButton,
   StyledImage,
   StyledCol,
@@ -74,6 +75,9 @@ function Dictionary(props) {
                   <StyledImage src={searchIcon} />
                 </StyledButton>
               </StyledForm>
+              <StyledText>
+                suggested words: nature, smooth, coding, sound...
+              </StyledText>
             </StyledCol>
           </Section>
         </StyledRow>

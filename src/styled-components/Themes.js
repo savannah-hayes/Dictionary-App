@@ -2,6 +2,7 @@ export const lightTheme = {
   body: "#FFFFFF",
   primaryColor: "#789bb1",
   synonyms: "#648ba3",
+  examples: "#6b6b6b",
   section: {
     background: "#dad5cd",
     border: "#789bb1",
@@ -24,6 +25,7 @@ export const darkTheme = {
   primaryColor: "#789bb1",
   text: "#FFFFFF",
   synonyms: "#FFFFFF",
+  examples: "#FFFFFF",
   section: {
     background: "#333",
     border: "#FFFFFF",

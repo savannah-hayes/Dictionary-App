@@ -12,7 +12,8 @@ import {
   StyledRow,
   StyledCol,
   StyledFooter,
-  StyledLink,
+  StyledLink1,
+  StyledLink2,
 } from "./styled-components/App-css";
 import lightIcon from "./Icons/light.png";
 import darkIcon from "./Icons/dark.png";
@@ -43,8 +44,8 @@ function App() {
           <StyledRow>
             <StyledCol>
               <StyledButton onClick={toggleTheme}>
-                <StyledIcon src={icon} alt="toggle icon" />
                 <StyledText>{text}</StyledText>
+                <StyledIcon src={icon} alt="toggle icon" />
               </StyledButton>
             </StyledCol>
             <StyledCol>
@@ -58,21 +59,21 @@ function App() {
           <StyledCol>
             <StyledFooter>
               Coded by{" "}
-              <StyledLink
+              <StyledLink1
                 href="https://linkedin.com/in/savannah-hayes-128b0418a"
                 target="_blank"
                 rel="noreferrer"
               >
                 Savannah Hayes
-              </StyledLink>
+              </StyledLink1>
               , Open-sourced on{" "}
-              <StyledLink
+              <StyledLink2
                 href="https://github.com/savannah-hayes/Dictionary-App"
                 target="_blank"
                 rel="noreferrer"
               >
                 GitHub{" "}
-              </StyledLink>
+              </StyledLink2>
             </StyledFooter>
           </StyledCol>
         </StyledContainer>

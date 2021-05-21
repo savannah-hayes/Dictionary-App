@@ -32,7 +32,16 @@ export const Section = styled.div`
 
 export const StyledForm = styled.form`
   padding: 20px 10px;
+  margin-bottom: -20px;
   text-align: left;
+`;
+
+export const StyledText = styled.p`
+  color: ${({ theme }) => theme.examples};
+  padding: 0 10px;
+  margin-left: 6px;
+  font-size: 0.8em;
+  font-style: italic;
 `;
 
 export const StyledInput = styled.input`
