@@ -26,7 +26,7 @@ export const StyledButton = styled.button`
   padding: 5px 0;
   cursor: pointer;
   position: relative;
-  width: 128px;
+  width: 130px;
   margin-top: 20px;
   margin-bottom: 10px;
   }
@@ -34,7 +34,7 @@ export const StyledButton = styled.button`
 
 export const StyledText = styled.span`
   position: relative;
-  margin-left: 5px;
+  margin-left: 7px;
   margin-right: 7px;
   top: 2px;
 `;
@@ -75,6 +75,7 @@ export const StyledFooter = styled.footer` {
   &:hover{
     ${StyledLink}{
       color: ${({ theme }) => theme.link.text};
+      text-decoration: underline;
     }
   }
 `;

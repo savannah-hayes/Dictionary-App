@@ -11,7 +11,7 @@ function Synonyms(props) {
   const [hidden, setHidden] = useState(true);
   if (props.synonyms) {
     return (
-      <StyledRow className="Synonyms">
+      <StyledRow>
         <StyledContainer>
           <StyledButton onClick={() => setHidden(!hidden)}>
             Synonyms

@@ -39,7 +39,7 @@ function App() {
     <div>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-        <StyledContainer className="app-container">
+        <StyledContainer>
           <StyledRow>
             <StyledCol>
               <StyledButton onClick={toggleTheme}>
@@ -54,14 +54,13 @@ function App() {
               </StyledHeader>
             </StyledCol>
           </StyledRow>
-          <Dictionary defaultWord="coding" />
+          <Dictionary defaultWord="hello" />
           <StyledCol>
-            <StyledFooter className="App-footer">
+            <StyledFooter>
               Coded by{" "}
               <StyledLink
                 href="https://linkedin.com/in/savannah-hayes-128b0418a"
                 target="_blank"
-                className="link"
                 rel="noreferrer"
               >
                 Savannah Hayes
@@ -70,7 +69,6 @@ function App() {
               <StyledLink
                 href="https://github.com/savannah-hayes/Dictionary-App"
                 target="_blank"
-                className="link"
                 rel="noreferrer"
               >
                 GitHub{" "}

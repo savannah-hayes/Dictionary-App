@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const StyledRow = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  margin-top: 15px;
+  margin: 20px -15px;
 `;
 
 export const StyledCol = styled.div`
@@ -25,7 +23,7 @@ export const Section = styled.div`
   background: ${({ theme }) => theme.section.background};
   border-radius: 8px;
   margin-top: 5px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};
 `;

@@ -8,17 +8,14 @@ export const StyledRow = styled.div`
 export const Section = styled.div`
   background: ${({ theme }) => theme.section.background};
   border-radius: 15px;
-  padding-top: 25px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 30px 10px;
   padding-bottom: 10px;
   border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};
 `;
 
 export const StyledContainer = styled.div`
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 15px;
 `;
 
 export const StyledImage = styled.img`

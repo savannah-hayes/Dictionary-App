@@ -11,7 +11,7 @@ export const Paragraph = styled.p`
 export const Section = styled.div`
   background: ${({ theme }) => theme.section.background};
   border-radius: 10px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   margin: 20px 0;
   border: 2px solid ${({ theme }) => theme.section.border};
   box-shadow: ${({ theme }) => theme.section.boxShadow};

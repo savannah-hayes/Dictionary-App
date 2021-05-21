@@ -57,7 +57,7 @@ function Dictionary(props) {
 
   if (loaded) {
     return (
-      <StyledContainer className="Dictionary">
+      <StyledContainer>
         {" "}
         <StyledRow>
           <Section>
@@ -65,7 +65,6 @@ function Dictionary(props) {
               <StyledForm onSubmit={handleSubmit}>
                 <StyledTitle>What word do you want to look up?</StyledTitle>
                 <StyledInput
-                  className="search"
                   type="search"
                   autoComplete="off"
                   placeholder="Search for a word"

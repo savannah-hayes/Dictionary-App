@@ -12,7 +12,7 @@ import {
 function Results(props) {
   if (props.results) {
     return (
-      <StyledRow className="Results">
+      <StyledRow>
         <StyledCol>
           <Section>
             <StyledTitle>{props.results.word} </StyledTitle>

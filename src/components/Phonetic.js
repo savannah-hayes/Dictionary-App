@@ -10,8 +10,7 @@ function Phonetic(props) {
   return (
     <Section>
       <VolumeUpIcon
-        className="icon"
-        fontSize="large"
+        fontSize="small"
         style={{ color: "rgb(120, 155, 177)" }}
         onClick={() => playSound(audio)}
       ></VolumeUpIcon>

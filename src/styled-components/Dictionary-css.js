@@ -31,8 +31,8 @@ export const Section = styled.div`
 `;
 
 export const StyledForm = styled.form`
-  padding: 30px;
-  text-align: ;
+  padding: 20px 10px;
+  text-align: left;
 `;
 
 export const StyledInput = styled.input`
