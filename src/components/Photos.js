@@ -15,7 +15,7 @@ function Photos(props) {
           <StyledRow className="row">
             {props.photos.map((photo, index) => {
               return (
-                <div className="col-4" key={index}>
+                <div className="col-6 col-sm-4" key={index}>
                   <a href={photo.src.original} target="_blank" rel="noreferrer">
                     <StyledImage
                       src={photo.src.landscape}
