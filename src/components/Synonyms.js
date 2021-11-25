@@ -9,12 +9,12 @@ import {
 
 function Synonyms(props) {
   const [hidden, setHidden] = useState(true);
-  if (props.synonyms) {
+  if (props.synonyms.length !== 0) {
     return (
       <StyledRow>
         <StyledContainer>
           <StyledButton onClick={() => setHidden(!hidden)}>
-            Synonyms
+            synonyms
           </StyledButton>
           <span hidden={hidden}>
             <StyledUnorderedList>
