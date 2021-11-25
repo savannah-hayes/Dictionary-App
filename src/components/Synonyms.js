@@ -16,7 +16,6 @@ function Synonyms(props) {
           <StyledButton onClick={() => setHidden(!hidden)}>
             Synonyms
           </StyledButton>
-          <br />
           <span hidden={hidden}>
             <StyledUnorderedList>
               {props.synonyms.map((synonyms, index) => {

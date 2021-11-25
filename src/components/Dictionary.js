@@ -31,12 +31,10 @@ function Dictionary(props) {
   }
 
   function search() {
-    //documentation: https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
-    let pexelsApiKey =
-      "563492ad6f9170000100000186b6bd7f35324e528d20f585fc2f4482";
+    let pexelsApiKey = process.env.REACT_APP_PEXELS_API_KEY;
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${word}&per_page=6`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);

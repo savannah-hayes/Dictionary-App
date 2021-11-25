@@ -1,22 +1,17 @@
 import styled from "styled-components";
 
 export const Title = styled.h1`
-  font-size: 1.3em;
-  @media (max-width: 320px) {
-    font-size: 1.2em;
-  }
-  @media (max-width: 240px) {
-    font-size: 1em;
+  font-size: 1.5vh;
+  @media (min-width: 540px) {
+    font-size: 2.5vh;
   }
 `;
 
 export const Paragraph = styled.p`
   margin-left: 15px;
-   @media (max-width: 320px) {
-    margin: 0;
-    font-size: 1em;
-  @media (max-width: 280px) {
-    font-size: 0.9em;
+  font-size: 1.5vh;
+  @media (min-width: 360px) {
+    font-size: 2vh;
   }
 `;
 

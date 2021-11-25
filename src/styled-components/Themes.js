@@ -1,6 +1,7 @@
 export const lightTheme = {
   body: "#FFFFFF",
   primaryColor: "#789bb1",
+  secondaryColor: "#5b5a5a",
   synonyms: "#648ba3",
   examples: "#6b6b6b",
   section: {
@@ -23,6 +24,7 @@ export const lightTheme = {
 export const darkTheme = {
   body: "#333",
   primaryColor: "#789bb1",
+  secondaryColor: "#a8a8a8",
   text: "#FFFFFF",
   synonyms: "#FFFFFF",
   examples: "#FFFFFF",

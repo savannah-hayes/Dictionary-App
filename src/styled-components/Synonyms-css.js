@@ -9,15 +9,9 @@ export const StyledButton = styled.button`
   font-family: "Archivo";
   margin-left: 30px;
   margin-bottom: 15px;
-  @media (max-width: 320px) {
-    font-size: 0.9em;
-    margin-left: 0;
-  }
-  @media (max-width: 280px) {
-    font-size: 0.8em;
-  }
-  @media (max-width: 240px) {
-    font-size: 0.6em;
+  font-size: 1vh;
+  @media (min-width: 360px) {
+   font-size: 1.5vh;
   }
 `;
 
@@ -29,38 +23,17 @@ export const StyledContainer = styled.div`
 export const StyledUnorderedList = styled.ul`
   position: relative;
   margin-top: -47px;
-  margin-left: 80px;
-  @media (max-width: 600px) {
-    margin-left: 90px;
-  }
-  @media (max-width: 480px) {
-    margin-left: -9px;
-    margin-top: -5px;
-  }
-  @media (max-width: 320px) {
-    margin-left: -37px;
-    margin-top: -6px;
-  }
-  @media (max-width: 240px) {
-    margin-left: -30px;
-    margin-top: -14px;
-  }
+  margin-left: 70px;
 `;
 
 export const StyledList = styled.li`
   color: ${({ theme }) => theme.synonyms};
   display: inline-block;
-  margin-left: 20px;
-  @media (max-width: 600px) {
-    margin-left: 10px;
-  }
-  @media (max-width: 280px) {
-    font-size: 0.89em;
-    margin-left: 9px;
-  }
-  @media (max-width: 240px) {
-    font-size: 0.6em;
-    margin-left: 5px;
+  margin-left: 5px;
+  font-size: 1.5vh;
+  @media (min-width: 600px) {
+   font-size: 2vh;
+   margin-left: 15px;
   }
 `;
 
