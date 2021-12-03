@@ -23,11 +23,15 @@ export const StyledButton = styled.button`
   background-color: ${({ theme }) => theme.toggleBtn.background};
   border: 2px solid ${({ theme }) => theme.primaryColor};
   border-radius: 30px;
-  padding: 5px 0;
+  padding: 3px 0;
   position: relative;
-  font-size: 2vh;
+  font-size: 0.75rem;
   margin-top: 20px;
   margin-bottom: 10px;
+  @media (min-width: 700px) {
+    font-size: 0.875rem;
+    padding: 5px 0;
+  }
 `;
 
 export const StyledText = styled.span`
@@ -37,18 +41,22 @@ export const StyledText = styled.span`
 `;
 
 export const StyledIcon = styled.img`
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   border-radius: 50px;
   border: 2px solid #789bb1;
   margin-right: 5px;
+  @media (min-width: 700px) {
+    height: 25px;
+    width: 25px;
+  }
 `;
 
 export const StyledHeader = styled.h1`
   font-weight: 600;
-  font-size: 4vh;
+  font-size: 6vh;
    @media (min-width: 660px) {
-    font-size: 7vh;
+    font-size: 8vh;
   }
 `;
 
@@ -56,7 +64,6 @@ export const StyledSymbols = styled.div`
   color: ${({ theme }) => theme.primaryColor};
   display: inline;
   position: relative;
-  top: 5px;
     font-size: 5vh;
   @media (min-width: 660px) {
     font-size: 8vh;

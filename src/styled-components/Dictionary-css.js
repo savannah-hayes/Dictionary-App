@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const StyledTitle = styled.h3`
   font-weight: 600;
   font-size: 1.25em;
-  margin-bottom: 10px;
   margin-left: 5px;
   text-align: left;
-  font-size: 1vh;
+  font-size: 1.5vh;
    @media (min-width: 360px) {
     font-size: 1.5vh;
   }
   @media (min-width: 540px) {
     font-size: 2.5vh;
+    margin-bottom: 10px;
   }
 `;
 
@@ -58,7 +58,7 @@ export const StyledInput = styled.input`
   border-radius: 5px;
   border: 2px solid ${({ theme }) => theme.primaryColor};
   width: 80%;
-  padding: 4px;
+  padding: 5px;
   background-color: ${({ theme }) => theme.background};
   font-size: 1.5vh;
   @media (min-width: 480px) {
@@ -71,10 +71,10 @@ export const StyledButton = styled.button`
   border-radius: 5px;
   margin-left: 10px;
   border: 2px solid ${({ theme }) => theme.primaryColor};
-  background: ${({ theme }) => theme.primaryColor};
+  background: ${({ theme }) => theme.primaryColor}; 
+  width: 10%;
   @media (min-width: 660px) {
     padding: 7px 7px;
-    width: 10%;
   }
 `;
 

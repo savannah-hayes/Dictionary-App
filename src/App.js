@@ -50,7 +50,7 @@ function App() {
             </StyledCol>
             <StyledCol>
               <StyledHeader>
-                📖 Dic<StyledSymbols>·</StyledSymbols>tio
+                Dic<StyledSymbols>·</StyledSymbols>tio
                 <StyledSymbols>·</StyledSymbols>nary
               </StyledHeader>
             </StyledCol>
